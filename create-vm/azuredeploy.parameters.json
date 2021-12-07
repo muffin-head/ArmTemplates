@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "platingnum"
+    },
+    "adminPassword": {
+      "value": "Letmein1234!!!!!!!!"
+    },
+    "dnsLabelPrefix": {
+      "value": "iaclabel"
+    },
+    "publicIpName": {
+      "value": "myPublicIP"
+    },
+    "publicIPAllocationMethod": {
+      "value": "Dynamic"
+    },
+    "publicIpSku": {
+      "value": "Basic"
+    },
+    "OSVersion": {
+      "value": "2019-Datacenter"
+    },
+    "vmSize": {
+      "value": "Standard_D4_v3"
+    },
+    "vmName": {
+      "value": "iac-simple-vm"
+    }
+  }
+}

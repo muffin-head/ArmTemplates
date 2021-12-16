@@ -30,7 +30,7 @@ jobs:
         template: create-vm/azuredeploy.json
         parameters: create-vm/azuredeploy.parameters.json
         
-    - uses: azure/arm-deploy@v1
+    - uses: azure/arm-deploy@v2
       with:
         resourceGroupName: ${{ env.ResourceGroupName }}
         template: apache2-on-ubuntu-vm/azuredeploy.json

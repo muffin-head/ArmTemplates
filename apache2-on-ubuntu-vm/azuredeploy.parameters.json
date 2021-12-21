@@ -2,17 +2,35 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "newStorageAccountName": {
-      "value": "GEN-UNIQUE-8"
-    },
-    "adminUsername": {
-      "value": "GEN-UNIQUE"
-    },
-    "dnsNameForPublicIP": {
-      "value": "GEN-UNIQUE"
-    },
-    "adminPasswordOrKey": {
-      "value": "GEN-SSH-PUB-KEY"
-    }
+      "newStorageAccountName": {
+          "value": "storage250998" 
+      },
+      "adminUsername": {
+          "value": "" 
+      },
+      "dnsNameForPublicIP": {
+          "value": "ubuntu250998" 
+      },
+      "ubuntuOSVersion": {
+          "value": "18.04-LTS"
+      },
+      "vmSize": {
+          "value": "Standard_A0"
+      },
+      "location": {
+          "value": ""
+      },
+      "authenticationType": {
+          "value": "sshPublicKey"
+      },
+      "adminPasswordOrKey": {
+          "value": "ubonbz25#" 
+      },
+      "_artifactsLocation": {
+          "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/apache2-on-ubuntu-vm/"
+      },
+      "_artifactsLocationSasToken": {
+          "value": ""
+      }
   }
 }

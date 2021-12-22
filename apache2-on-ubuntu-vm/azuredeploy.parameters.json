@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "newStorageAccountName": {
-        "value": "GEN-UNIQUE-8"
+        "value": "ubuntu25"
       },
       "adminUsername": {
-        "value": "GEN-UNIQUE"
+        "value": "ubuntu"
       },
       "dnsNameForPublicIP": {
-        "value": "GEN-UNIQUE"
+        "value": "ubunbz25szml"
       },
       "adminPasswordOrKey": {
-        "value": "GEN-SSH-PUB-KEY"
+        "value": "szmlzx14?!"
       }
     }
   }

@@ -26,5 +26,5 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: apache2-on-ubuntu-vm/azuredeploy.json
-          parameters: apache2-on-ubuntu-vm/azuredeploy.parameters.json
+          template: sql-database/azuredeploy.json
+          parameters: sql-database/azuredeploy.parameters.json

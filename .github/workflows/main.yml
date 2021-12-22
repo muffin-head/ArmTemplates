@@ -27,8 +27,8 @@ jobs:
     - uses: azure/arm-deploy@v1
       with:
         resourceGroupName: ${{ env.ResourceGroupName }}
-        template: webapp-windows-ASPNET/azuredeploy.json
-        parameters: webapp-windows-ASPNET/azuredeploy.parameters.json
+        template: apache2-on-ubuntu-vm/azuredeploy.json
+        parameters: apache2-on-ubuntu-vm/azuredeploy.parameters.json
         
 ##    - uses: azure/arm-deploy@v1
 #      with:

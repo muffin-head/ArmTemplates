@@ -2,7 +2,7 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "serverName": { azure
+    "serverName": {
       "type": "string",
       "defaultValue": "[uniqueString('sql', resourceGroup().id)]",
       "metadata": {
@@ -51,7 +51,7 @@
         {
           "type": "databases",
           "apiVersion": "2020-02-02-preview",
-          "name": "[parameters('serrverName')]",
+          "name": "[parameters('sqlDBName')]",
           "location": "[parameters('location')]",
           "sku": {
             "name": "Standard",

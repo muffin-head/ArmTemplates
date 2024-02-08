@@ -29,7 +29,13 @@ jobs:
         resourceGroupName: ${{ env.ResourceGroupName }}
         template: create-vm/azuredeploy.json
         parameters: create-vm/azuredeploy.parameters.json
-        
+
+    - uses: azure/arm-deplot@v2
+      with: 
+      resourceGroupName: ${ADF}
+      template: create-vm/azuredeploy.json #adf deploykment 
+      parameter: parameter.json --deploy
+            
 ##    - uses: azure/arm-deploy@v1
 #      with:
 #        resourceGroupName: ${{ env.ResourceGroupName }}
